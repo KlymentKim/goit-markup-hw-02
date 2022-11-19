@@ -1,3 +1,11 @@
+
+:root{
+    --primary-color-text:#2E2F42;
+    --primary-color-baground:#FFFFFF;
+    --primary-color-contact:#434455;
+    --primary-color-button:#4D5AE5;
+}
+
 a{
     text-decoration: none;
     color:inherit;
@@ -8,23 +16,47 @@ ul{
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Raleway', sans-serif;
+    background-color: var(--primary-color-baground);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 /* main css */
-.header-items1{
-    color: #2E2F42;
+.header{
+    background-color: #2E2F42;
+    height: 603px;
+}
+.nav-content{
+    height: 72px;
+    background-color: var(--primary-color-baground);
+}
+.header-items{
+    color: var(--primary-color-text);
     font-style:SemiBold;
     font-size: 16px;
     line-height: 24px;
 }
-.header-items2{
-    color: #434455;
+.header-contact{
+    color: var(--primary-color-contact);
+    font-family: Roboto;
     font-style: Regular;
     font-weight: 400px;
     font-size: 16px;
-    line-height: 24px;
-    
+    line-height: 24px;  
 }
-
+h1{
+    color:var(--primary-color-baground);
+    font-style: 600;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn-click{
+    background-color: var(--primary-color-button);
+}
 
 /* portfolio css */
 .content-items{
