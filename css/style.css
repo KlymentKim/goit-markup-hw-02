@@ -22,18 +22,18 @@ body{
 }
 /* main css */
 .header{
-    background-color: #2E2F42;
+    /* background-color: #2E2F42; */
     height: 603px;
+    margin-top: 24px;
 }
-.nav-content{
-    height: 72px;
-    background-color: var(--primary-color-baground);
-}
+
 .header-items{
     color: var(--primary-color-text);
     font-style:SemiBold;
     font-size: 16px;
     line-height: 24px;
+    height: 72px;
+   
 }
 .header-contact{
     color: var(--primary-color-contact);
@@ -53,9 +53,6 @@ h1{
 .btn{
     display: flex;
     justify-content: center;
-}
-.btn-click{
-    background-color: var(--primary-color-button);
 }
 
 /* portfolio css */
