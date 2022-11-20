@@ -170,7 +170,6 @@ h1{
 .portfolio-header-contact{
     display: flex;
     justify-content: end;
-    align-items: ;
 }
 .portfolio-items-list{
     color: var(--primary-color-button);
