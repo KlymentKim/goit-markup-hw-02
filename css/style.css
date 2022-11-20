@@ -51,13 +51,15 @@ body{
     height: 72px;   
 }
 .header-contact{
+    display: flex;
+    justify-content:start;
     color: var(--primary-color-contact);
     font-family: Roboto;
     font-style: Regular;
     font-weight: 400px;
     font-size: 16px;
-    line-height: 24px;  
-    padding-left: 331px;
+    line-height: 24px; 
+    /* margin-left: 330px; */
 }
 .btn{
     display: flex;
@@ -114,26 +116,44 @@ h1{
 
 
 /* portfolio css */
-.header-portfolio{
+.portfolio-header{
     height: 72px;
     background-color: var(--primary-color-baground);
     margin-bottom: 96px;
 }
-.header-portfolio-content{
+.portfolio-header-content{
     padding: 24px 24px;
     padding: 0;
+    
 }
-.portfolio-logo{
+.portfolio-logo-items{
     /* padding: 0 156px 0 77px; */
-    padding-left: 156px;
-    padding-right: 77px;
+    /* /* padding-left: 156px; */
+    /* padding-left: 156px;  */
+    margin: 0;
+    padding: 0;    
 }
+.portfolio-header-items1{
+    padding-left: 77px; 
+}
+.portfolio-header-items2{
+    padding-left: 40px; 
+}
+.portfolio-header-items3{
+    padding-left: 40px; 
+}
+
 .portfolio-header-items{
     display: flex;
     justify-content: start;
 }
 .portfolio-header-items{
-    padding: 0 20px 0 20px;
+       
+}
+.portfolio-header-line{
+    margin: 0;
+    padding: 0;
+    width: 1440px;
 }
 [href*="line"]{
     border-bottom: 1px solid #8E8F99;
@@ -148,7 +168,9 @@ h1{
     
 }
 .portfolio-header-contact{
-    
+    display: flex;
+    justify-content: end;
+    align-items: ;
 }
 .portfolio-items-list{
     color: var(--primary-color-button);
