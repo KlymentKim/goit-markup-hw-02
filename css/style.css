@@ -28,7 +28,7 @@ body{
 .main-page-header{
     background-color: #2E2F42;
     height: 603px;
-    /* margin-top: 24px; */
+    margin-top: 24px;
 }
 .main-page-nav-content{
      background-color: var(--primary-color-baground);
@@ -85,12 +85,12 @@ h1{
     text-align: center;
 }
 /* block text  */
-[href$="list"]{
+/* [href$="list"]{
     color:var(--secondary-color-text);
     font-family: Roboto;
     font-size: 16px;
     line-height: 24px;
-}
+} */
 
 /* portfolio css */
 
