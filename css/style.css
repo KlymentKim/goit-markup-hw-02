@@ -84,13 +84,6 @@ h1{
     line-height: 60px;
     text-align: center;
 }
-/* block text  */
-/* [href$="list"]{
-    color:var(--secondary-color-text);
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
-} */
 
 /* portfolio css */
 
@@ -139,7 +132,16 @@ h3{
 .footer-link{
     margin-bottom: 16px;
 }
-[href*="WEB-footer"]{
+.footer-text{
+    color: var(--footer-color-text);
+    width: 264px;
+    height: 72px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+/* [href*="WEB-footer"]{
     color: var(--primary-color-logo1);
     font-family:Raleway;
     font-weight: 800;
@@ -160,4 +162,4 @@ h3{
     font-family: 24px;
     font-weight: 400;
     letter-spacing: 2px;
-}
+} */
