@@ -81,10 +81,9 @@ body{
     justify-content: center;
     align-items: center;
     font-family: Roboto;
-    font-style: SemiBold;
-    font-size: 16px;
-    line-height: 19px;
     font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18em;
     margin-bottom: 190px;
 }
 .btn:hover{
@@ -107,27 +106,28 @@ body{
     line-height: 1.2em;
 }
 /* portfolio css */
-
 .portfolio-header-line{
     margin: 0;
     padding: 0;
     width: 1440px;
 }
-
 .portfolio-content-items{
     display: flex;
     justify-content: center;
-    
+    flex-direction: row;
+    align-items: flex-start;  
+  
 }
-.portfolio-items-list{
+.portfolio-buttons-items{  
     color: var(--primary-color-button);
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
+    font-family: 'Roboto';
     font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5em;
     margin: 0 24px 0 24px;
+    border-radius: 4px;
 }
-.portfolio-items-list:hover{
+.portfolio-buttons-items:hover{
     background: var(--primary-color-button);
     color:var(--primary-color-baground); 
 }
