@@ -34,10 +34,7 @@ body{
     font-weight: 800;
     line-height: 1.5em;
 }
-.main-footer-logo,
-.portfolio-footer-logo:hover{
-    color: var(--primary-color-baground);
-}
+
 .main-page-nav-content{
      background-color: var(--primary-color-baground);
 }
@@ -47,20 +44,20 @@ body{
     color: var(--primary-color-text);
     font-style:SemiBold;
     font-size: 16px;
-    line-height: 24px;
-    height: 72px;   
+    line-height: 1.5em;
+    height: 72px; 
+    letter-spacing: 0.02em;  
 }
 .main-header-contact,
-.portfolio-header-contacts,
-.portfolio-text-p,
-.main-text-p{
+.main-text-about,
+.main-job-title,
+.portfolio-header-contact,
+.portfolio-text-about{
     color: var(--primary-color-contact);
-    font-family: Roboto;
-    font-style: Regular;
+    font-family: 'Roboto';
     font-weight: 400px;
     font-size: 16px;
-    line-height: 24px; 
-    
+    line-height: 0.02em; 
 }
 .main-title-content{
     height: 600px;
@@ -74,7 +71,6 @@ body{
     text-align: center;
     justify-content: center;
     padding-top: 190px;
-    
 }
 .btn{
     display: flex;
@@ -97,8 +93,19 @@ body{
     fill:solid;
     border-radius: 4px;
 }
-
-
+.portfolio-footer-logo,
+.main-footer-logo{
+    color: var(--footer-color-text);
+}
+.h3-goals,
+.h3-name,
+.h3-type-app{
+    color: var(--primary-color-text);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2em;
+}
 /* portfolio css */
 
 .portfolio-header-line{
@@ -126,13 +133,8 @@ body{
     color:var(--primary-color-baground); 
 }
 h3{
-    font-family: Roboto;
-    font-size: 20px;
-    line-height: 24px;
-    color: var(--primary-color-text);
-    font-weight: 600;
+    
 }
-
 
 /* footer */
 .footer{
@@ -143,12 +145,14 @@ h3{
 .footer-link{
     margin-bottom: 16px;
 }
-.footer-text{
+.main-footer-text,
+.portfolio-footer-text{
     color: var(--footer-color-text);
     width: 264px;
     height: 72px;
-    font-family: Roboto;
-    font-size: 16px;
+    font-family: 'Roboto';
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
     letter-spacing: 2px;
 }
