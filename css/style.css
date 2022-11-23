@@ -64,6 +64,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 0.02; 
+    letter-spacing: 0.02;
 }
 .header-contact:hover{
     color:var(--primary-color-button);
