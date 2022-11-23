@@ -102,10 +102,10 @@ body{
     margin-bottom: 190px;
     background-color: var(--primary-color-button);
     color: var(--primary-color-baground);
+    border-radius: 4px;
 }
 .btn:hover{
     background-color: #404BBF;
-    border-radius: 4px;
 }
 .h3-goals,
 .h3-name,
@@ -129,18 +129,18 @@ body{
     align-items: flex-start;  
   
 }
-.portfolio-buttons-items{  
-    color: var(--primary-color-button);
-    font-family: 'Roboto';
-    font-weight: 600;
+.portfolio-btn-items{  
+    background-color: var(--primary-color-button);
+    color: var(--primary-color-baground);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02;
     margin: 0 24px 0 24px;
     border-radius: 4px;
 }
-.portfolio-buttons-items:hover{
-    background: var(--primary-color-button);
-    color:var(--primary-color-baground); 
+.portfolio-btn-items:hover{
+    background-color: #404BBF;
 }
 
 /* footer */
