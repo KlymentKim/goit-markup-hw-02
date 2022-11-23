@@ -58,16 +58,23 @@ body{
     line-height: 0.02; 
 }
 .main-title-content{
-    height: 600px;
     background-color: var(--primary-color-title);
+    height: 600px;
+
+}
+.main-title-todo{
+    text-align:center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+
 }
 .main-title-item{
     color:var(--primary-color-baground);
     font-style: 600;
     font-size: 56px;
-    line-height: 1;
+    line-height: 1.07;
     text-align: center;
-    justify-content: center;
     padding-top: 190px;
 }
 .btn{
