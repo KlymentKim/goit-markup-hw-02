@@ -66,7 +66,7 @@ body{
     line-height: 0.02; 
 }
 .header-contact:hover{
-    color:var(--primary-color-button);  
+    color:var(--primary-color-button);
 }
 .main-title-content{
     background-color: var(--primary-color-title);
@@ -74,18 +74,19 @@ body{
 }
 .main-title-todo{
     text-align:center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
 
 }
 .main-title-item{
     color:var(--primary-color-baground);
-    font-style: 600;
+    font-style: 500;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     padding-top: 190px;
+    letter-spacing: 0.02;
 }
 .btn{
     display: flex;
@@ -95,12 +96,12 @@ body{
     height: 51px;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto';
-    font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     margin-bottom: 190px;
+    background-color: var(--primary-color-button);
+    color: var(--primary-color-baground);
 }
 .btn:hover{
     background: var(--primary-color-button);
