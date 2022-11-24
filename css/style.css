@@ -26,6 +26,8 @@ body{
 /* main css */
 .main-logo1,
 .footer-logo1{
+    font-family: Raleway;
+    font-style: normal;
     color: var(--primary-color-logo1);
     font-weight: 800;
     font-size: 18px;
@@ -35,6 +37,12 @@ body{
 }
 .main-logo2{
     color: var(--primary-color-title);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: uppercase;
 }
 .footer-logo2{
     color: var(--primary-color-logo2);
