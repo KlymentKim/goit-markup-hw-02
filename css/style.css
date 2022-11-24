@@ -70,8 +70,8 @@ body{
     color: var(--primary-color-contact);
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.02; 
-    letter-spacing: 0.02;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
 }
 .header-contact:hover{
     color:var(--primary-color-button);
@@ -92,7 +92,7 @@ body{
 }
 .main-title-item{
     color:var(--primary-color-baground);
-    font-style: 500;
+    font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
