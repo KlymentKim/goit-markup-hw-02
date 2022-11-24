@@ -18,10 +18,9 @@ ul{
     list-style: none;
 }
 body{
-    font-family: 'Roboto','Raleway', sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: var(--primary-color-baground);
-    max-width: 1440px;
-    margin: 0 auto;
+  
 }
 /* main css */
 .main-logo1,
